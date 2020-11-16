@@ -63,7 +63,7 @@ public class DemoCase {
 
 		getByLocation.getElementObj("mBtNext",driver).click();
 		getByLocation.getElementObj("mIvPhoneEmpty",driver).click();
-		getByLocation.getElementObj("mEtPhoneNum",driver).sendKeys("13051781278");
+		getByLocation.getElementObj("mEtPhoneNum",driver).sendKeys("13051781111");
 		getByLocation.getElementObj("nextStep",driver).click();
 		getByLocation.getElementObj("aggreeCheck",driver).click();
 		getByLocation.getElementObj("sendMsg",driver).sendKeys("123456");
@@ -91,8 +91,8 @@ public class DemoCase {
 		GetByLocation getByLocation = new GetByLocation("idoAuthAndRisk.properties");
 		getByLocation.getElementObj("toBorrow",driver).click();
 		log.info("进入实名认证页面");
-		getByLocation.getElementObj("idoNameInput",driver).sendKeys("王晓曈");
-		getByLocation.getElementObj("idoNumInput",driver).sendKeys("11010119900930304X");
+		getByLocation.getElementObj("idoNameInput",driver).sendKeys("王晓");
+		getByLocation.getElementObj("idoNumInput",driver).sendKeys("1101011990098888888");
 		getByLocation.getElementObj("getFront",driver).click();
 		getByLocation.getElementObj("getFromPicLib",driver).click();
 		Thread.sleep(3000);
